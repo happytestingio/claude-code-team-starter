@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(python3 -m pytest *)",
+      "Bash(pytest *)",
+      "Bash(python3 .claude/skills/sprint-report/sprint_stats.py *)",
+      "Bash(git status *)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git fetch *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(gh pr view *)",
+      "Bash(gh pr list *)",
+      "Bash(gh run view *)",
+      "Bash(gh run list *)"
+    ],
+    "ask": [
+      "Bash(git push *)",
+      "Bash(gh pr create *)",
+      "Bash(gh pr merge *)",
+      "Bash(pip install *)",
+      "Edit(./.github/workflows/**)",
+      "Edit(./tests/test_never_do_rules.py)"
+    ],
+    "deny": [
+      "Bash(git push --force *)",
+      "Bash(git push -f *)",
+      "Bash(git reset --hard *)",
+      "Bash(rm -rf *)",
+      "Bash(gh pr merge * --admin *)",
+      "Bash(gh api * -X DELETE *)",
+      "Read(./.env)",
+      "Read(./.env.*)"
+    ]
+  }
+}

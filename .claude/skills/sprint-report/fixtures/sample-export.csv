@@ -1,0 +1,7 @@
+Issue key,Summary,Issue Type,Status,Sprint,Story Points
+APP-101,Customer can reset password from email link,Story,Done,Sprint 14,5
+APP-102,Order history page loads in under 2 seconds,Story,Done,Sprint 14,3
+APP-103,Invoice PDF shows wrong VAT rate,Bug,Done,Sprint 14,2
+APP-104,Export orders to CSV,Story,In Progress,Sprint 14,5
+APP-105,Payment provider webhook retries,Story,Blocked,Sprint 14,3
+APP-106,Login button misaligned on Safari,Bug,To Do,Sprint 14,1
